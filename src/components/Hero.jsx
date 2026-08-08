@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import centerImage from '../assets/hero_assets/hero_center.png';
 
 const Hero = ({ onPreloadComplete }) => {
-  const [text, setText] = useState('WELCOME GUYS');
+  const [text, setText] = useState('WELCOME');
   const containerRef = useRef(null);
   const textRef = useRef(null);
   const subtitleRef = useRef(null);
@@ -16,7 +16,7 @@ const Hero = ({ onPreloadComplete }) => {
     document.body.style.overflow = 'hidden';
 
     const target = "VIKRAM";
-    const start = "THIS IS";
+    const start = "IAM";
     let iterations = -1;
     let intervalId;
     let timeoutId;
@@ -89,7 +89,7 @@ const Hero = ({ onPreloadComplete }) => {
           );
         }
         iterations += 1 / 3; // Controls the speed of the letter swap
-      }, 130); // 50ms per step
+      }, 120); // 50ms per step
     });
 
     return () => {
