@@ -89,7 +89,7 @@ const Hero = ({ onPreloadComplete }) => {
           );
         }
         iterations += 1 / 3; // Controls the speed of the letter swap
-      }, 180); // 50ms per step
+      }, 130); // 50ms per step
     });
 
     return () => {
