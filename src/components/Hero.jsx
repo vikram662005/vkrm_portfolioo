@@ -15,8 +15,8 @@ const Hero = ({ onPreloadComplete }) => {
     window.scrollTo(0, 0);
     document.body.style.overflow = 'hidden';
 
-    const target = "VIKRAM THE ONE";
-    const start = "DON’T BLINK DEAR";
+    const target = "IAM VIKRAM";
+    const start = "HEY GUYS!";
     let iterations = 0;
     let intervalId;
     let timeoutId;
@@ -33,7 +33,7 @@ const Hero = ({ onPreloadComplete }) => {
     });
 
     const delayPromise = new Promise((resolve) => {
-      timeoutId = setTimeout(resolve, 1000);
+      timeoutId = setTimeout(resolve, 3000);
     });
 
     let isMounted = true;
