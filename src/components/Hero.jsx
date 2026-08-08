@@ -15,7 +15,7 @@ const Hero = ({ onPreloadComplete }) => {
     window.scrollTo(0, 0);
     document.body.style.overflow = 'hidden';
 
-    const target = "IAM_VIKRAM";
+    const target = "VIKRAM THE ONE";
     const start = "DON’T BLINK DEAR";
     let iterations = 0;
     let intervalId;
