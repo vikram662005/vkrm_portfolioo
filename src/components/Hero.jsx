@@ -17,7 +17,7 @@ const Hero = ({ onPreloadComplete }) => {
 
     const target = "VIKRAM";
     const start = "THISIS";
-    let iterations = 0;
+    let iterations = 1;
     let intervalId;
     let timeoutId;
 
