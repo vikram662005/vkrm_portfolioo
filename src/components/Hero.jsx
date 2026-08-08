@@ -16,7 +16,7 @@ const Hero = ({ onPreloadComplete }) => {
     document.body.style.overflow = 'hidden';
 
     const target = "VIKRAM";
-    const start = "THIS IS";
+    const start = "THISIS";
     let iterations = 0;
     let intervalId;
     let timeoutId;
