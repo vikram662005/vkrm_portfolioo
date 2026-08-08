@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import centerImage from '../assets/hero_assets/hero_center.png';
 
 const Hero = ({ onPreloadComplete }) => {
-  const [text, setText] = useState('IAM_VIKRAM');
+  const [text, setText] = useState('WELCOME');
   const containerRef = useRef(null);
   const textRef = useRef(null);
   const subtitleRef = useRef(null);
@@ -15,8 +15,8 @@ const Hero = ({ onPreloadComplete }) => {
     window.scrollTo(0, 0);
     document.body.style.overflow = 'hidden';
 
-    const target = "IAM VIKRAM";
-    const start = "HEY GUYS!";
+    const target = "HEY GUYS!";
+    const start = "IAM VIKRAM";
     let iterations = 0;
     let intervalId;
     let timeoutId;
