@@ -16,7 +16,7 @@ const Hero = ({ onPreloadComplete }) => {
     document.body.style.overflow = 'hidden';
 
     const target = "IAM VIKRAM";
-    const start = "HEY!";
+    const start = "HEY";
     let iterations = 0;
     let intervalId;
     let timeoutId;
@@ -89,7 +89,7 @@ const Hero = ({ onPreloadComplete }) => {
           );
         }
         iterations += 1 / 3; // Controls the speed of the letter swap
-      }, 230); // 50ms per step
+      }, 180); // 50ms per step
     });
 
     return () => {
