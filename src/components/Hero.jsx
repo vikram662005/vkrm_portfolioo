@@ -33,7 +33,7 @@ const Hero = ({ onPreloadComplete }) => {
     });
 
     const delayPromise = new Promise((resolve) => {
-      timeoutId = setTimeout(resolve, 3000);
+      timeoutId = setTimeout(resolve, 600);
     });
 
     let isMounted = true;
