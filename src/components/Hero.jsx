@@ -15,8 +15,8 @@ const Hero = ({ onPreloadComplete }) => {
     window.scrollTo(0, 0);
     document.body.style.overflow = 'hidden';
 
-    const target = "IAM VIKRAM";
-    const start = "HEY";
+    const target = "VIKRAM";
+    const start = "HEY IAM";
     let iterations = 0;
     let intervalId;
     let timeoutId;
