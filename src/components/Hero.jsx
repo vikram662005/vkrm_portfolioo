@@ -33,7 +33,7 @@ const Hero = ({ onPreloadComplete }) => {
     });
 
     const delayPromise = new Promise((resolve) => {
-      timeoutId = setTimeout(resolve, 600);
+      timeoutId = setTimeout(resolve, 1000);
     });
 
     let isMounted = true;
@@ -89,7 +89,7 @@ const Hero = ({ onPreloadComplete }) => {
           );
         }
         iterations += 1 / 3; // Controls the speed of the letter swap
-      }, 120); // 50ms per step
+      }, 110); // 50ms per step
     });
 
     return () => {
