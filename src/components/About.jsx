@@ -93,7 +93,7 @@ const About = () => {
             <img
               src={aboutImage}
               alt="About"
-               className="w-auto h-72 md:h-96 lg:h-[33rem] object-contain drop-shadow-2xl"
+               className="w-auto h-72 md:h-96 lg:h-[29rem] object-contain drop-shadow-2xl"
             />
           </div>
 
